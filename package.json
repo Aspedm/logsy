@@ -8,6 +8,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build && tsc --emitDeclarationOnly",
+    "prepublishOnly": "yarn build",
     "test": "jest",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
