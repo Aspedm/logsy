@@ -1,5 +1,5 @@
 import Logsy from '../src/Logsy';
-import devOnlyPlugin from '../src/plugins/devOnlyPlugin';
+import { devOnlyPlugin } from '../src/plugins/devOnlyPlugin';
 
 const mockLog = jest.fn();
 global.console.log = mockLog;
