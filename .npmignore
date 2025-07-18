@@ -1,0 +1,24 @@
+# Source files
+src/
+
+# Tests
+tests/
+coverage/
+jest.config.js
+
+# Examples
+examples/
+
+# Configuration files
+tsconfig.json
+.gitignore
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Misc
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
