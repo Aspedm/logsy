@@ -13,10 +13,25 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://logsy.me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aspedm/logsy.git"
+  },
   "keywords": [
     "console",
     "log",
-    "styled"
+    "styled",
+    "logging",
+    "browser",
+    "javascript",
+    "typescript",
+    "plugin",
+    "wyeg",
+    "logsy"
   ],
   "author": "WYEG, Tagir Khadzhiev",
   "license": "MIT",
