@@ -12,6 +12,9 @@ examples/
 # Configuration files
 tsconfig.json
 .gitignore
+.eslintignore
+vite.config.js
+eslint.config.js
 
 # Editor-specific files
 .vscode/
@@ -22,3 +25,4 @@ node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
+.github/
