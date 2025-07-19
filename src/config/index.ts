@@ -8,3 +8,5 @@ export enum LogTags {
   ERROR = 'ERROR',
   SUCCESS = 'SUCCESS',
 }
+
+export const DEFAULT_LABEL_COLOR = '#1E90FF';

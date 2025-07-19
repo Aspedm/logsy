@@ -1,6 +1,6 @@
 {
   "name": "@wyeg/logsy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Logsy - is a library for stylized logging of messages in the browser console. It allows developers to easily output structured and visual various messages with custom styles, tags and plugin support.",
   "main": "dist/logsy.umd.js",
   "module": "dist/logsy.es.js",

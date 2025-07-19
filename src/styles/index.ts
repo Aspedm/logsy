@@ -1,9 +1,9 @@
 /**
- * Generates CSS styles for a log message with a primary color.
- * @param primaryColor - Primary color for the log styles
- * @returns CSS styles for the log message
+ * Generates CSS styles for a log message label.
+ * @param primaryColor - The primary color for the label.
+ * @returns {string}
  */
-export const getLogStyles = (primaryColor: string): string => {
+export const getLabelStyle = (primaryColor: string): string => {
   return `
     display: inline-block;
     border: 1px solid ${primaryColor};

@@ -1,12 +1,12 @@
-import { LogTags } from './config';
+import { DEFAULT_LABEL_COLOR, LogTags } from './config';
 import type { ILogOptions } from './interface';
 import type { ILogsyPlugin, TLogLevel } from './plugins/interfaces';
-import { getLogStyles } from './styles';
+import { getLabelStyle } from './styles';
 
 class Logsy {
   private static readonly DEFAULT_LABEL = LogTags.DEFAULT;
 
-  private static readonly DEFAULT_STYLE = getLogStyles('#1E90FF');
+  private static readonly DEFAULT_STYLE = getLabelStyle(DEFAULT_LABEL_COLOR);
 
   private static readonly plugins: ILogsyPlugin[] = [];
 
@@ -53,6 +53,7 @@ class Logsy {
       )
     ) {
       const opts = params.shift() as ILogOptions;
+
       options = {
         ...options,
         ...opts,
